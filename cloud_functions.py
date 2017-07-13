@@ -5,3 +5,6 @@
 def add(x, y):
     return x + y
 
+
+def return_string(input_string):
+    return input_string
