@@ -5,9 +5,14 @@
 def add(x, y):
     return x + y
 
-def return_string(input_string):
-    return input_string
+def get_config():
+    # config variable is a dict that is loaded into the cloud_functions file at runtime
+    return config
 
-def new(x, y):
-    return x - y
-
+def log_something():
+    logger.debug('this is the debug message')
+    logger.info('this is the info message')
+    logger.error('this is the error message')
+    logger.exception('this is the exception message')
+    logger.warning('this is the warning message')
+    logger.critical('this is the critical message')
