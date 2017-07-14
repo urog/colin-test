@@ -9,6 +9,12 @@ def get_config():
     # config variable is a dict that is loaded into the cloud_functions file at runtime
     return config
 
+def get_config_keys():
+    return config.keys()
+
+def get_config_values():
+    return config.values()
+
 def log_something():
     logger.debug('this is the debug message')
     logger.info('this is the info message')
