@@ -25,3 +25,6 @@ def log_something():
 
 def my_new_func():
     return 'this is new'
+
+def my_second_new_func():
+    return 'this is my second new func'
