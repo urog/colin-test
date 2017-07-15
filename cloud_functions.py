@@ -23,11 +23,3 @@ def log_something():
     logger.warning('this is the warning message')
     logger.critical('this is the critical message')
 
-def my_new_func():
-    return 'this is new'
-
-def my_second_new_func():
-    return 'this is my second new func'
-
-def third_func():
-    return 'third func'
