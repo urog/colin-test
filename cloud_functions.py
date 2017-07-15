@@ -26,3 +26,6 @@ def log_something():
 
 def square(x):
     return x*x
+
+def cubed(x):
+    return x*x*x
