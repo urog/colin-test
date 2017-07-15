@@ -28,3 +28,6 @@ def my_new_func():
 
 def my_second_new_func():
     return 'this is my second new func'
+
+def third_func():
+    return 'third func'
