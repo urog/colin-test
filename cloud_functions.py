@@ -23,9 +23,3 @@ def log_something():
     logger.warning('this is the warning message')
     logger.critical('this is the critical message')
 
-
-def square(x):
-    return x*x
-
-def cubed(x):
-    return x*x*x
