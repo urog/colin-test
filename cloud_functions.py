@@ -23,3 +23,6 @@ def log_something():
     logger.warning('this is the warning message')
     logger.critical('this is the critical message')
 
+
+def some_new_function():
+    return 'some new function'
