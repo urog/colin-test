@@ -22,7 +22,3 @@ def log_something():
     logger.exception('this is the exception message')
     logger.warning('this is the warning message')
     logger.critical('this is the critical message')
-
-
-def some_new_function():
-    return 'some new function'
