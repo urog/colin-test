@@ -18,10 +18,9 @@ def get_config_keys():
 def get_config_values():
     return config.values()
 
-def log_something():
-    logger.debug('this is the debug message')
-    logger.info('this is the info message')
-    logger.error('this is the error message')
-    logger.exception('this is the exception message')
-    logger.warning('this is the warning message')
-    logger.critical('this is the critical message')
+def log_something(message):
+    logger.debug('{}'.format(message))
+    logger.info('{}'.format(message))
+    logger.exception('{}'.format(message))
+    logger.warning('{}'.format(message))
+    logger.critical('{}'.format(message))
